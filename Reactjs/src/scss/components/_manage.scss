@@ -1,0 +1,93 @@
+.product_table {
+    border-collapse: collapse;
+    width: 100%;
+    td {
+        border-bottom: 1px solid #000000;
+        padding: 0.5em;
+        text-align:center;
+        background-color: #FFFFFF;
+        img {
+            width: 100px;
+            height: 100px;
+        }
+        button {
+            margin: 3px;
+            background-color: transparent !important;
+            color: #000000;
+            margin-right: 5px;
+            &.view {
+                border: 1px solid $gray-yellowgreen-bg;
+                color: $gray-yellowgreen-bg;
+                &:hover {
+                    background-color: #84f1ae !important;
+                    color: black;
+                }
+            }
+            &.edit {
+                border: 1px solid $edit-bg;
+                &:hover {
+                    background-color: #9cbbf5 !important;
+                    color: white;
+                }
+            }
+            &.delete {
+                border: 1px solid $red;
+                color: $red;
+                &:hover {
+                    background-color: #f8ac81 !important;
+                    color: white;
+                }    
+            }
+        }
+    }
+    th {
+        padding: 0.5em;
+        background-color: $primary-green;
+        color: $white;
+    }
+}
+.btn-create {
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+.ant-col {
+    img {
+        width: 100%;
+        border: 1px dotted black;
+    }
+}
+.ant-modal-body {
+    button {
+        margin-right: 5px;
+    }
+}
+body {
+    background-color: #eadbbf !important;
+}
+.ant-upload-list-picture-card-container {
+    width: 100% !important;
+    height: 150px !important;
+    margin: 0 !important;
+    .ant-upload {
+        width: 100% !important;
+        max-height: 200px !important;
+    }
+}
+.ant-upload {
+    &.ant-upload-select-picture-card {
+        width: 100% !important;
+        height: 150px !important;
+    }
+}
+.ant-modal-close {
+    width: 30px !important;
+    height: 30px !important;
+    &:hover {
+        background-color: rgb(236, 226, 226) !important;
+    }
+    .ant-modal-close-x {
+        width: 30px !important;
+        height: 30px !important;
+        padding-top: 8px;
+    }
+}

@@ -1,0 +1,19 @@
+footer {
+  color: $white;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+  background: $gray-yellowgreen-bg;
+  strong {
+    color: $gray-medium;
+  }
+  .footer-links {
+    margin-bottom: 24px;
+    color: white;
+    font-size: 26px;
+    a {
+      margin: 0 8px;
+      color: $gray-medium;
+    }
+  }
+}
