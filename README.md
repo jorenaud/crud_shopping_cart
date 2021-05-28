@@ -76,7 +76,7 @@ Open application/config/database.php file in Codeigniter directroy and set the D
 * Start
 ```
 $ cd Codeigniter/
-$ php spark servie --port=80
+$ php spark serve --port=80
 ```
 
 * Confirmation
