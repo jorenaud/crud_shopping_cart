@@ -2,35 +2,35 @@
 This document aims to implement Simple CRUD Shopping Card in Reatjs, Laravel and Codeigniter.
 
 # Requirements
-* Front-end:
-	○ ReactJS
-	○ Must have a section to manage products (CRUD)
-		■ User should be able to manage product name, price, image and quantity.
-		■ There is no need to create a login system.
-	Shopping cart
-		■ The cart will need to keep its “state” during page loads / refreshes
-		■ List Products – these should be listed at all times to allow adding of products
-		■ Products should be listed in this format: product name, price, link to add product
-		■ Must be able to add a product to the cart
-		■ Must be able to view current products in the cart
-		■ Cart products should be listed in this format: product name, price, quantity, total, remove link
-		■ Product totals should be tallied to give an overall total
-		■ Must be able to remove a product from the cart
-		■ Adding an existing product will only update existing cart product quantity (e.g. adding the same product twice will NOT create two cart items)
-		■ All prices should be displayed to 2 decimal places
-* Back-end:
-	○ Project will work as expected in PHP 7.3+
-	○ We require the back-end to be developed with two Frameworks. The final outcome should be two APIs developed with the following Frameworks and both APIs should return the same information:
-		■ Codeigniter 3.0
-		■ Laravel 8+
-	○ Error checking will be set to strict for viewing completed code
-* Use MySQL
-	○ Create the necessary tables for products:
-		■ uid
-		■ name
-		■ price
-		■ Image
-		■ stock
+* Front-end:<br>
+	○ ReactJS<br>
+	○ Must have a section to manage products (CRUD)<br>
+		■ User should be able to manage product name, price, image and quantity.<br>
+		■ There is no need to create a login system.<br>
+	Shopping cart<br>
+		■ The cart will need to keep its “state” during page loads / refreshes<br>
+		■ List Products – these should be listed at all times to allow adding of products<br>
+		■ Products should be listed in this format: product name, price, link to add product<br>
+		■ Must be able to add a product to the cart<br>
+		■ Must be able to view current products in the cart<br>
+		■ Cart products should be listed in this format: product name, price, quantity, total, remove link<br>
+		■ Product totals should be tallied to give an overall total<br>
+		■ Must be able to remove a product from the cart<br>
+		■ Adding an existing product will only update existing cart product quantity (e.g. adding the same product twice will NOT create two cart items)<br>
+		■ All prices should be displayed to 2 decimal places<br>
+* Back-end:<br>
+	○ Project will work as expected in PHP 7.3+<br>
+	○ We require the back-end to be developed with two Frameworks. The final outcome should be two APIs<br> developed with the following Frameworks and both APIs should return the same information:
+		■ Codeigniter 3.0<br>
+		■ Laravel 8+<br>
+	○ Error checking will be set to strict for viewing completed code<br>
+* Use MySQL<br>
+	○ Create the necessary tables for products:<br>
+		■ uid<br>
+		■ name<br>
+		■ price<br>
+		■ Image<br>
+		■ stock<br>
 
 # Deployments
 ## Prerequisites
