@@ -20,7 +20,7 @@ This document aims to implement Simple CRUD Shopping Card in Reatjs, Laravel and
 		■ All prices should be displayed to 2 decimal places<br>
 * Back-end:<br>
 	○ Project will work as expected in PHP 7.3+<br>
-	○ We require the back-end to be developed with two Frameworks. The final outcome should be two APIs<br> developed with the following Frameworks and both APIs should return the same information:
+	○ We require the back-end to be developed with two Frameworks. The final outcome should be two APIs<br> developed with the following Frameworks and both APIs should return the same information:<br>
 		■ Codeigniter 3.0<br>
 		■ Laravel 8+<br>
 	○ Error checking will be set to strict for viewing completed code<br>
