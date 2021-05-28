@@ -85,9 +85,9 @@ Open browser and goto 'http://localhost/'
 
 ## Install and start frontend
 * API Configuration
-Open src/const.js file in ReactJS directory, and Settings the "BASE_API_URL". 
+Open src/const.js file in ReactJS directory, and Settings the "BASE_API_URL". <br>
 If you want to use Laravel API,...
-	- export const BASE_API_URL = "http://localhost:8000";
+	- export const BASE_API_URL = "http://localhost:8000";<br>
 If you want to use Codeigniter API,...
 	- export const BASE_API_URL = "http://localhost";
 
